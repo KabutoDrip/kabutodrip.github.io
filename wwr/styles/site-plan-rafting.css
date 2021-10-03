@@ -4,10 +4,10 @@ Fonts are separated by a | */
 @import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
 :root {
   /* change the values below to your colors from your palette */
-  --primary-color: #396E94   ;
-  --secondary-color: #28666E ;
-  --accent1-color: #7C9885;
-  --accent2-color: #ffe8d6;
+  --primary-color: #124E78   ;
+  --secondary-color: #F0F0C9 ;
+  --accent1-color: #F2BB05;
+  --accent2-color: #6E0E0A;
 
   /* change the values below to your chosen font(s) */
   --heading-font: "Oswald Regular 400";
