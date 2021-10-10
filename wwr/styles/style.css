@@ -1,0 +1,63 @@
+body{
+    display: block;
+    background-color: blanchedalmond;
+    max-width: 1600px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+h1{
+    background-color: chocolate;
+    padding:100px 50px;
+    text-align: center;
+
+}
+h4{
+    background-color: chocolate;
+}
+.logo{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.icon{
+    width: 80px;
+}
+.latin{
+    font-size: 30px;
+    color: coral;
+    padding:30px;
+}
+#fancy{
+    font-family: 'Stick No Bills', sans-serif;
+}
+.card-img{
+    display: block;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+nav{
+    text-align: center;
+}
+nav a{
+    color: maroon;
+    text-decoration: none;
+}
+nav :hover{
+    color:chocolate;
+    text-decoration: underline;
+}
+footer{
+    color: maroon;
+}
+footer a{
+    color: maroon;
+}
+footer a :hover{
+    color: chocolate;
+    text-decoration: underline;
+}
