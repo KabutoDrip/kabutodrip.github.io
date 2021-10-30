@@ -1,0 +1,40 @@
+body{
+    background-color: cornsilk;
+}
+body, h1, h2, h3, h4, h5, h6{
+    margin: 0;
+    padding: 0%;
+}
+main{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 189px 189px 228px;
+    gap: 20px;
+    margin: 0;
+
+}
+.conference{
+    grid-column: 1/3;
+    grid-row: 1/3;
+    background-color: crimson;
+    padding-left: 29px;
+    padding-top: 300px;
+
+}
+.prophet{
+    grid-column: 3/5;
+    background-color: darkcyan;
+    padding-left: 29px;
+    padding-top: 150px;
+}
+.learnmore{
+    grid-column: 3/5;
+    background-color: darkgoldenrod;
+    padding-left: 29px;
+    padding-top: 150px;
+}
+.box{
+    background-color: cornflowerblue;
+    padding-left: 29px;
+    padding-top: 189px;
+}

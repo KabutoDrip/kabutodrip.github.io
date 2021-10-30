@@ -1,0 +1,65 @@
+#content{
+}
+#upper{
+    display: grid;
+    height: 100px;
+    grid-template-columns: 1fr 2.5fr 1fr;
+    background-color: cadetblue;
+}
+#header{
+    display: grid;
+    grid-column: 1;
+    grid-template-columns: 1fr 3fr;
+
+}
+nav{
+    display: grid;
+    grid-column: 1;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+#home{
+    grid-column: 1;
+    background-color: black;
+
+}
+#packages{
+    grid-column: 2;
+    background-color: white;
+}
+#booknow{
+    grid-column: 3;
+    background-color: black;
+}
+#contact{
+    grid-column: 4;
+    background-color: white;
+}
+#logo_link{
+
+}
+.logo{
+
+}
+#hero{
+    display: grid;
+
+}
+#hero-box{
+
+}
+#hero-img{
+    position: absolute;
+    float: left;    z-index: -5;
+}
+#hero-msg{
+
+}
+.home-title{
+
+}
+.button-box{
+
+}
+.book{
+
+}

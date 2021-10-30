@@ -1,0 +1,49 @@
+i{
+    font-size: 500px;
+}
+.material-icons{
+    font-size: 100px;
+}
+.material-icons.face{
+    font-size: 50px;
+}
+.material-icons.orange { 
+    color: #FB8C00; 
+    font-size: 100px;
+}
+.material-icons.blue {
+    color: blue;
+    font-size: 150px;
+}
+.material-icons.red {
+    color: red;
+    font-size: 160px;
+}
+.material-icons.green {
+    color: green;
+    font-size: 170px;
+}
+.material-icons.tan {
+    color:tan;
+    font-size: 180px;
+}
+.material-icons.teal {
+    color: teal;
+    font-size: 190px;
+}
+.material-icons.gold {
+    color: gold;
+    font-size: 200px;
+}
+.material-icons.magenta {
+    color: magenta;
+    font-size: 210px;
+}
+.material-icons.aqua {
+    color: aqua;
+    font-size: 220px;
+}
+.material-icons.lavendar {
+    color: lavender;
+    font-size: 230px;
+}
