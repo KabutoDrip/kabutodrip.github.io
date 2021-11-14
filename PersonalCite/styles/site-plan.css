@@ -8,7 +8,7 @@ Fonts are separated by a | */
   --primary-color: #3D405B   ;
   --secondary-color: #E07A5F ;
   --accent1-color: #F4F1DE;
-  --accent2-color: #F2CC8F;
+  --accent2-color: #7700ff;
 
   /* change the values below to your chosen font(s) */
   --heading-font: "Cambria";
@@ -39,6 +39,7 @@ body {
 img {
   display: block;
   margin: 0 auto;
+  max-width: 500px;
 }
 h1, h2, h3, h4, h5, h6 {
   font-family: var(--heading-font);
@@ -104,6 +105,7 @@ nav {
   line-height: 3em;
   text-align: center;
   font-size: 1.2em;
+  justify-content: center;
 }
 nav  {
   list-style-type: none;
