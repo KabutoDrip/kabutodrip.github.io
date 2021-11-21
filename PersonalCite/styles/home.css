@@ -1,0 +1,47 @@
+body{
+    background-color: white;
+}
+header{
+    display:block;
+    float: left;
+    text-align: center;
+    width:  9%;
+    height: 40em;
+    background-color: #49a7c1;
+    border-radius: 4px;
+    line-height: 6em;
+}
+header img{
+    padding-top: 10px;
+    max-width: 9em;
+}
+header a{
+margin: 20px;
+font-size: 3em;
+text-decoration: none;
+color:#060958 ;
+}
+.top-content{
+    display: inline-block;
+    text-align: center;
+    padding-left: 15%;
+    padding-right: 15%;
+    margin: auto;
+    width: 70%;
+}
+.top-content img{
+    max-width: 60%;
+    border-radius: 3px;
+}
+.top-content p {
+    max-width: 50%;
+    margin: auto;
+}
+
+.play-content img{
+    
+    max-width: 30%;
+}
+.work-content img{
+    max-width: 30%;
+}
