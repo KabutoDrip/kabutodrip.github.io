@@ -1,0 +1,15 @@
+body{
+    display: inline-block;
+    text-align: center;
+    background-color: purple;
+}
+body img{
+    margin: 0 auto;
+    max-width: 50%;
+}
+h1 {
+    text-align: center;
+}
+h2{
+    color: lightblue;
+}
