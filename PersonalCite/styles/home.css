@@ -5,11 +5,12 @@ header{
     display:block;
     float: left;
     text-align: center;
-    width:  9%;
+    width:  10em;
     height: 40em;
     background-color: #49a7c1;
     border-radius: 4px;
     line-height: 6em;
+    position: fixed;
 }
 header img{
     padding-top: 10px;
@@ -20,6 +21,9 @@ margin: 20px;
 font-size: 3em;
 text-decoration: none;
 color:#060958 ;
+}
+main{
+    padding-left: 10em;
 }
 .top-content{
     display: inline-block;
@@ -38,10 +42,42 @@ color:#060958 ;
     margin: auto;
 }
 
+
+
+
+.play-content{
+    background-color: blanchedalmond;
+    display: block;
+    max-width: 50%;
+    float: left;
+    padding-top: 5%;
+}
 .play-content img{
+    max-width: 80%;
+}
+.play-content h1{
+    text-align: center;
+}
+.play-content p{
+    padding-left: 10%;
+}
+
+
+
+.work-content{
+    background-color: blanchedalmond;
+    display: block;
+    max-width: 50%;
+    float: right;
+    padding-top: 5%;
     
-    max-width: 30%;
 }
 .work-content img{
-    max-width: 30%;
+    max-width: 80%;
+}
+.work-content h1{
+    text-align: center;
+}
+.work-content p {
+    padding-left: 10%;
 }
