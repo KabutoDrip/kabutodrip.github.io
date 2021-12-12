@@ -1,39 +1,61 @@
 @import url('https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap');
-body{
+@import url('https://fonts.googleapis.com/css2?family=Anonymous+Pro&family=Share+Tech+Mono&display=swap');body{
     background-color: #3D405B;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 nav{
-    background: linear-gradient(45deg, #E07A5F, #7700ff);
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    min-height: 8vh;
-    font-family: 'Share Tech Mono', monospace;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  min-height: 8vh;
+  font-family: 'Share Tech Mono', monospace;
+  background-color: white;
+  padding-right: 50px;
+  padding-left: 50px;
+  padding-bottom: .2vh;
+
 }
 h2{
+  padding-top: 15px;
+  right: 46%;
+  font-size: 70px;
+  position: absolute;
+  margin: 0;
+  font-family: 'Share Tech Mono', monospace;
   color: antiquewhite;
   text-align: center;
 }
-.logo{
-    margin: 2rem;
-}
+
 .logo img{
-    height: 8vh;
+  height: 8vh;
 }
 .main-nav{
-    display: flex;
-    justify-content:space-between;
-    width: 50%;
+  margin: 0;
+  
+  display: flex;
+  justify-content:space-between;
+  width: 50%;
+  height: 100%;
 }
 .main-nav a{
-    text-decoration: none;
-    font-size: 4vh;
+  text-decoration: none;
+  font-size: 4vh;
+  height: 100%;
 }
 .main-nav li{
-    list-style: none;
+  list-style: none;
+  height: 100%;
+}
+.active{
+  background: linear-gradient(-15deg, #E07A5F, #6010ff);
+  height: 100%;
+  padding-top: 6vh;
+  padding-bottom: 2vh;
+  padding-right: 1vh;
+  padding-left: 1vh;
+
 }
 .header img{
     min-height: 75px;
@@ -125,7 +147,7 @@ body {font-family: Verdana, sans-serif;}
         }
     
         
-    .active {
+    .activedot {
           background-color: #717171;
         }
         
@@ -150,4 +172,36 @@ body {font-family: Verdana, sans-serif;}
         /* On smaller screens, decrease text size */
         @media only screen and (max-width: 300px) {
           .text {font-size: 11px}
+        }
+        footer{
+          color: white;
+          padding: 25px 50px;
+          margin-top: 100px;
+          margin-bottom: 100px;
+          font-weight: 500;
+          font-size: 30px;
+          font-family: 'Share Tech Mono', monospace;
+          display: flex;
+          justify-content: space-around;
+          align-items: center;
+          text-align: center;
+        }
+        .social-images a img{
+          padding-top: 15px;
+          max-width: 150px;
+        }
+        h3{
+          text-align: center;
+        }
+       
+        .contact{
+          flex: .3;
+        }
+        .copyright{
+          order: 3;
+          flex: .3;
+        }
+        address,footer p{
+          font-family: 'Anonymous Pro', monospace;
+          font-size: 20px;
         }
