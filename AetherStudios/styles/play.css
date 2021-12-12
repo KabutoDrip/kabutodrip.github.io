@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap');
+body{
+    background-color: #3D405B;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+nav{
+    background: linear-gradient(45deg, #E07A5F, #7700ff);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    min-height: 8vh;
+    font-family: 'Share Tech Mono', monospace;
+}
+h2{
+  color: antiquewhite;
+  text-align: center;
+}
+.logo{
+    margin: 2rem;
+}
+.logo img{
+    height: 8vh;
+}
+.main-nav{
+    display: flex;
+    justify-content:space-between;
+    width: 50%;
+}
+.main-nav a{
+    text-decoration: none;
+    font-size: 4vh;
+}
+.main-nav li{
+    list-style: none;
+}
+.header img{
+    min-height: 75px;
+    height: 5vw;
+    padding: 10px;
+    
+}
+.glitch{
+  display: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.mySlides img{
+    margin-top: 10vh;
+    display: block;
+    width: 100%;
+    height: 550px;
+    object-fit: cover;
+    text-align: center;
+    border-style: solid;
+    border-width: 10px;
+    border-image: linear-gradient(45deg, #7700ff, #E07A5F) 1;
+  }
+
+
+
+body {font-family: Verdana, sans-serif;}
+    .mySlides {display: none;}
+    img {vertical-align: middle;}
+        
+    .slideshow-container {
+          max-width: 1000px;
+          position: relative;
+          margin: auto;
+        }
+        
+    .dots{
+      position: absolute;
+      margin-top: -50px;
+      margin-left: 45%;
+      margin-right: 45%;
+      width: 10%;
+    }
+    .text {
+          color: #f2f2f2;
+          font-size: 20px;
+          padding: 8px 12px;
+          position: absolute;
+          bottom: 8px;
+          width: 100%;
+          text-align: center;
+          font-family: 'Share Tech Mono', monospace;
+
+        }
+    .slideshow-container p{
+      position: absolute;
+      text-align: center;
+      font-size: 30px;
+      font-family: 'Share Tech Mono', monospace;
+
+    }   
+    
+    .dot {
+      height: 15px;
+      width: 15px;
+      margin: 0 2px;
+      background-color: #bbb;
+      border-radius: 50%;
+      display: inline-block;
+      transition: background-color 0.6s ease;
+        }
+    
+        
+    .active {
+          background-color: #717171;
+        }
+        
+        /* Fading animation */
+    .fade {
+          -webkit-animation-name: fade;
+          -webkit-animation-duration: 1.5s;
+          animation-name: fade;
+          animation-duration: 1.5s;
+        }
+        
+        @-webkit-keyframes fade {
+          from {opacity: .4} 
+          to {opacity: 1}
+        }
+        
+        @keyframes fade {
+          from {opacity: .4} 
+          to {opacity: 1}
+        }
+        
+        /* On smaller screens, decrease text size */
+        @media only screen and (max-width: 300px) {
+          .text {font-size: 11px}
+        }

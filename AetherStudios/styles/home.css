@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anonymous+Pro&family=Share+Tech+Mono&display=swap');
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    height: 100vh;
+    perspective: 1px;
+    transform-style: preserve-3d;
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    min-height: 8vh;
+    font-family: 'Share Tech Mono', monospace;
+    background-color: white;
+    padding-right: 50px;
+    padding-left: 50px;
+}
+h1{
+    margin: 0;
+    font-family: 'Share Tech Mono', monospace;
+    color: antiquewhite;
+    text-align: center;
+}
+
+.logo img{
+    height: 8vh;
+}
+.main-nav{
+    margin: 0;
+    
+    display: flex;
+    justify-content:space-between;
+    width: 50%;
+    height: 100%;
+}
+.main-nav a{
+    text-decoration: none;
+    font-size: 4vh;
+    height: 100%;
+}
+.main-nav li{
+    list-style: none;
+    height: 100%;
+}
+.active{
+    background: linear-gradient(-15deg, #E07A5F, #6010ff);
+    height: 100%;
+    padding-top: 6vh;
+    padding-bottom: 6vh;
+    padding-right: 1vh;
+    padding-left: 1vh;
+
+}
+
+
+header a{
+margin: 20px;
+font-size: 3em;
+text-decoration: none;
+color:#060958 ;
+}
+main{
+}
+.top-content{
+    background-color: black;
+    color:white;
+    font-family: 'Anonymous Pro', monospace;
+    font-weight: 500;
+    display: inline-block;
+    margin: 0;
+    width: 100vw;
+    height: 100vh;
+    box-sizing: border-box;
+    transform-style: preserve-3d;
+
+
+
+}
+.top-content img{
+    max-height: 60%;
+    position: absolute;
+    padding-top: 200px;
+    right: -200px;
+    z-index: +2;
+    border-radius: 3px;
+}
+.top-content div {
+    max-width: 45%;
+    height: 100%;
+    margin-right: 55%;
+    background-color: #6010ff;
+    
+}
+
+
+
+
+.play-content{
+    background-color: blanchedalmond;
+    display: block;
+    max-width: 50%;
+    float: left;
+    padding-top: 5%;
+}
+.play-content img{
+    max-width: 80%;
+}
+.play-content h1{
+    text-align: center;
+}
+.play-content p{
+    padding-left: 10%;
+}
+
+
+
+.work-content{
+    background-color: blanchedalmond;
+    display: block;
+    max-width: 50%;
+    float: right;
+    padding-top: 5%;
+    
+}
+.work-content img{
+    max-width: 80%;
+}
+.work-content h1{
+    text-align: center;
+}
+.work-content p {
+    padding-left: 10%;
+}
