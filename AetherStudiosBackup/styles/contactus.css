@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anonymous+Pro&family=Share+Tech+Mono&display=swap');
+body{
+    background-color: #6a397a;
+    margin: 0;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    min-height: 8vh;
+    font-family: 'Share Tech Mono', monospace;
+    background-color: white;
+    padding-right: 50px;
+    padding-left: 50px;
+  }
+  h1{
+    margin: 0;
+    font-family: 'Share Tech Mono', monospace;
+    color: white;
+    text-align: center;
+  }
+  
+  .logo img{
+    height: 8vh;
+  }
+  .main-nav{
+    margin: 0;
+    
+    display: flex;
+    justify-content:space-between;
+    width: 50%;
+    height: 100%;
+  }
+  .main-nav a{
+    text-decoration: none;
+    font-size: 4vh;
+    height: 100%;
+  }
+  .main-nav li{
+    list-style: none;
+    height: 100%;
+  }
+  .active{
+    background: linear-gradient(-15deg, #E07A5F, #6010ff);
+    height: 100%;
+    padding-top: 6vh;
+    padding-bottom: 2vh;
+    padding-right: 1vh;
+    padding-left: 1vh;
+  
+  }
+form {
+  margin: 0 auto;
+  margin-top: 100px;
+  width: 1000px;
+  padding: 1em;
+  border: 3px solid #060958;
+  border-radius: 1em;
+  background-color: #49a7c1;
+  
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+form li + li {
+  margin-top: 1em;
+}
+
+label {
+  display: inline-block;
+  width: 90px;
+  text-align: right;
+}
+
+input,
+textarea {
+  font: 1em sans-serif;
+
+  width: 300px;
+  box-sizing: border-box;
+
+  border: 2px solid #5740d8;
+  border-radius: 5px;
+}
+
+input:focus,
+textarea:focus {
+  border-color: #060958;
+}
+
+textarea {
+  vertical-align: top;
+
+  height: 5em;
+}
+
+.button {
+  padding-left: 90px; 
+}
+
+button {
+  margin-left: .5em;
+}
+#feedback {
+    background-color: antiquewhite;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    padding: .5em;
+    display: none;
+}
+.moveDown {
+    margin-top: 3em;
+}
+
+footer{
+    color: white;
+    padding: 25px 50px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    font-weight: 500;
+    font-size: 30px;
+    font-family: 'Share Tech Mono', monospace;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+  }
+  .social-images a img{
+    padding-top: 15px;
+    max-width: 150px;
+  }
+  h3{
+    text-align: center;
+  }
+ 
+  .contact{
+    flex: .3;
+  }
+  .copyright{
+    order: 3;
+    flex: .3;
+  }
+  address,footer p{
+    font-family: 'Anonymous Pro', monospace;
+    font-size: 20px;
+
+  }

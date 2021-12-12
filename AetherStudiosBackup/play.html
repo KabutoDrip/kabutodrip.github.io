@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/play.css"> 
+    <title>Aether Studios Games</title>        
+</head>
+<body>
+
+  <nav>
+    <div class = "logo">
+      <img class=logo src="images/LogoMakr-7xKZCF.png" alt="Aether Logo">
+    </div>
+    <ul class="main-nav">
+      <li><a  href="index.html">Home</a></li> 
+      <li><a href="work.html">Work</a></li>
+      <li><a class="active" href="play.html">Play</a></li>
+      <li><a href="contactus.html">Contact</a></li>
+    </ul>
+    
+</nav>
+    
+      
+    <h2>Games</h2>
+
+    <div class="slideshow-container">
+      
+      <div class="dots" style="text-align:center">
+        <span class="dot"></span> 
+        <span class="dot"></span> 
+        <span class="dot"></span> 
+      </div>
+
+    <div class="mySlides fade">
+      <img src="images/play3.jpg" alt="Concept Image for Project Crossguard">
+      <div class="text">Project Crossguard</div>
+      <p>A mobile dungeon crawler with a Kingdom Come Deliverance Combat system and lots of loot to exercitation
+
+      </p>
+    </div>
+    
+    <div class="mySlides fade" >
+      <img src="images/play1.jpg" alt="Concept Image for Project HomeWorld">
+      <div class="text">Project HomeWorld</div>
+      <p>A midieval 4x singleplayer game where you try to unite humanity to reclaim the earth</p>
+
+    </div>
+    
+    <div class="mySlides fade">
+      <img src="images/play2.jpg" alt="Concept Image for Project Jump">
+      <div class="text">Project Jump</div>
+      <p>A mobile platformer/puzzle game where you have to quickly solve the puzzles in order to continue</p>
+
+    </div>
+    
+    </div>
+    <br>
+    
+    
+    
+    <script>
+    var slideIndex = 0;
+    showSlides();
+    
+    function showSlides() {
+      var i;
+      var slides = document.getElementsByClassName("mySlides");
+      var dots = document.getElementsByClassName("dot");
+      for (i = 0; i < slides.length; i++) {
+        slides[i].style.display = "none";  
+      }
+      slideIndex++;
+      if (slideIndex > slides.length) {slideIndex = 1}    
+      for (i = 0; i < dots.length; i++) {
+
+        dots[i].className = dots[i].className.replace(" activedot", "");
+      }
+      slides[slideIndex-1].style.display = "block";  
+      dots[slideIndex-1].className += " activedot";
+        dots[i].className = dots[i].className.replace(" active", "");
+      
+      slides[slideIndex-1].style.display = "block";  
+      dots[slideIndex-1].className += " active";
+      setTimeout(showSlides, 4000); // Change image every 2 seconds
+        }
+    </script>
+    
+    </body>
+    <footer>
+      <section class="contact">
+          <h3>Contact Info</h3>
+          <address>
+              116 Oscar White Rd
+              Edmond WV 25837
+              wildwestwvraftingco@gmail.com
+          </address>
+      </section>
+      <section class="copyright">
+          <h3>Legal info</h3>
+          <p>Copyright &copy; AetherStudiosco</p> 
+      </section>
+      <section class="social-images">
+          <h3>Social Media</h3>
+          <a href="https://instagram.com" target="_blank"><img src="images/instagram.png" alt="Instagram"></a>
+          <a href="https://facebook.com/" target="_blank"><img src="images/facebook.png" alt="Facebook"></a>
+          <a href="https://tiktok.com/" target="_blank"><img src="images/Tiktok.png" alt="Tiktok"></a>
+          <a href="https://twitter.com/" target="_blank"><img src="images/twitter.png" alt="Twitter"></a>
+    
+      </section>
+    </footer>
+</html>
