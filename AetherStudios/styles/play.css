@@ -1,0 +1,249 @@
+@import url('https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap');
+<<<<<<< HEAD
+@import url('https://fonts.googleapis.com/css2?family=Anonymous+Pro&family=Share+Tech+Mono&display=swap');body{
+=======
+body{
+>>>>>>> 5d943d581b2c8e4a40c8fd3b63e81888f69d5d5b
+    background-color: #3D405B;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+nav{
+<<<<<<< HEAD
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  min-height: 8vh;
+  font-family: 'Share Tech Mono', monospace;
+  background-color: white;
+  padding-right: 50px;
+  padding-left: 50px;
+  padding-bottom: .2vh;
+
+}
+h2{
+  padding-top: 15px;
+  right: 46%;
+  font-size: 70px;
+  position: absolute;
+  margin: 0;
+  font-family: 'Share Tech Mono', monospace;
+  color: antiquewhite;
+  text-align: center;
+}
+
+.logo img{
+  height: 8vh;
+}
+.main-nav{
+  margin: 0;
+  
+  display: flex;
+  justify-content:space-between;
+  width: 50%;
+  height: 100%;
+}
+.main-nav a{
+  text-decoration: none;
+  font-size: 4vh;
+  height: 100%;
+}
+.main-nav li{
+  list-style: none;
+  height: 100%;
+}
+.active{
+  background: linear-gradient(-15deg, #E07A5F, #6010ff);
+  height: 100%;
+  padding-top: 6vh;
+  padding-bottom: 2vh;
+  padding-right: 1vh;
+  padding-left: 1vh;
+
+=======
+    background: linear-gradient(45deg, #E07A5F, #7700ff);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    min-height: 8vh;
+    font-family: 'Share Tech Mono', monospace;
+}
+.logo{
+    margin: 2rem;
+}
+.logo img{
+    height: 8vh;
+}
+.main-nav{
+    display: flex;
+    justify-content:space-between;
+    width: 30%;
+}
+.main-nav a{
+    text-decoration: none;
+    font-size: 4vh;
+}
+.main-nav li{
+    list-style: none;
+>>>>>>> 5d943d581b2c8e4a40c8fd3b63e81888f69d5d5b
+}
+.header img{
+    min-height: 75px;
+    height: 5vw;
+    padding: 10px;
+    
+}
+<<<<<<< HEAD
+.glitch{
+  display: none;
+}
+=======
+
+>>>>>>> 5d943d581b2c8e4a40c8fd3b63e81888f69d5d5b
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.mySlides img{
+    margin-top: 10vh;
+    display: block;
+    width: 100%;
+    height: 550px;
+    object-fit: cover;
+    text-align: center;
+    border-style: solid;
+    border-width: 10px;
+    border-image: linear-gradient(45deg, #7700ff, #E07A5F) 1;
+  }
+
+
+
+body {font-family: Verdana, sans-serif;}
+    .mySlides {display: none;}
+    img {vertical-align: middle;}
+        
+    .slideshow-container {
+          max-width: 1000px;
+          position: relative;
+          margin: auto;
+        }
+        
+    .dots{
+      position: absolute;
+      margin-top: -50px;
+      margin-left: 45%;
+      margin-right: 45%;
+      width: 10%;
+    }
+    .text {
+          color: #f2f2f2;
+          font-size: 20px;
+          padding: 8px 12px;
+          position: absolute;
+          bottom: 8px;
+          width: 100%;
+          text-align: center;
+          font-family: 'Share Tech Mono', monospace;
+
+        }
+    .slideshow-container p{
+      position: absolute;
+      text-align: center;
+      font-size: 30px;
+      font-family: 'Share Tech Mono', monospace;
+
+    }   
+    
+    .dot {
+      height: 15px;
+      width: 15px;
+      margin: 0 2px;
+      background-color: #bbb;
+      border-radius: 50%;
+      display: inline-block;
+      transition: background-color 0.6s ease;
+        }
+    
+        
+<<<<<<< HEAD
+    .activedot {
+=======
+    .active {
+>>>>>>> 5d943d581b2c8e4a40c8fd3b63e81888f69d5d5b
+          background-color: #717171;
+        }
+        
+        /* Fading animation */
+    .fade {
+          -webkit-animation-name: fade;
+          -webkit-animation-duration: 1.5s;
+          animation-name: fade;
+          animation-duration: 1.5s;
+        }
+        
+        @-webkit-keyframes fade {
+          from {opacity: .4} 
+          to {opacity: 1}
+        }
+        
+        @keyframes fade {
+          from {opacity: .4} 
+          to {opacity: 1}
+        }
+        
+        /* On smaller screens, decrease text size */
+        @media only screen and (max-width: 300px) {
+          .text {font-size: 11px}
+<<<<<<< HEAD
+        }
+        footer{
+          color: white;
+          padding: 25px 50px;
+          margin-top: 100px;
+          margin-bottom: 100px;
+          font-weight: 500;
+          font-size: 30px;
+          font-family: 'Share Tech Mono', monospace;
+          display: flex;
+          justify-content: space-around;
+          align-items: center;
+          text-align: center;
+        }
+        .social-images a img{
+          padding-top: 15px;
+          max-width: 150px;
+        }
+        h3{
+          text-align: center;
+        }
+       
+        .contact{
+          flex: .3;
+        }
+        .copyright{
+          order: 3;
+          flex: .3;
+        }
+        address,footer p{
+          font-family: 'Anonymous Pro', monospace;
+          font-size: 20px;
+=======
+>>>>>>> 5d943d581b2c8e4a40c8fd3b63e81888f69d5d5b
+        }

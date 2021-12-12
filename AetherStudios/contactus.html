@@ -9,11 +9,18 @@
 </head>
 <body>
   <header>
-    <a href="home.html">Home</a>
-    <a href="play.html">Play</a>
-    <a href="work.html">Work</a>
-    <a href="site-plan.html">Site Plan</a>
-
+    <nav>
+      <div class = "logo">
+        <img class=logo src="images/LogoMakr-7xKZCF.png" alt="Aether Logo">
+      </div>
+      <ul class="main-nav">
+        <li><a  href="index.html">Home</a></li> 
+        <li><a href="work.html">Work</a></li>
+        <li><a href="play.html">Play</a></li>
+        <li><a class="active" href="contactus.html">Contact</a></li>
+      </ul>
+      
+  </nav>
 </header>
 <div id="feedback"></div>
 <form action="/my-handling-form-page" method="post">
@@ -50,8 +57,32 @@
       // make the feedback element visible.
       feedbackElement.style.display = "block";
       // add a class to move everything down so our message doesn't cover it.
-      document.body.classList.toggle('moveDown');
+      //document.body.classList.toggle('moveDown');
   });
 </script>
-                  
+    
+
+
+<footer>
+  <section class="contact">
+      <h3>Contact Info</h3>
+      <address>
+          116 Oscar White Rd
+          Edmond WV 25837
+          wildwestwvraftingco@gmail.com
+      </address>
+  </section>
+  <section class="copyright">
+      <h3>Legal info</h3>
+      <p>Copyright &copy; AetherStudiosco</p> 
+  </section>
+  <section class="social-images">
+      <h3>Social Media</h3>
+      <a href="https://instagram.com" target="_blank"><img src="images/instagram.png" alt="Instagram"></a>
+      <a href="https://facebook.com/" target="_blank"><img src="images/facebook.png" alt="Facebook"></a>
+      <a href="https://tiktok.com/" target="_blank"><img src="images/Tiktok.png" alt="Tiktok"></a>
+      <a href="https://twitter.com/" target="_blank"><img src="images/twitter.png" alt="Twitter"></a>
+
+  </section>
+</footer>
 </html>
