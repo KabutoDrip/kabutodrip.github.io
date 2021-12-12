@@ -1,11 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap');
+<<<<<<< HEAD
 @import url('https://fonts.googleapis.com/css2?family=Anonymous+Pro&family=Share+Tech+Mono&display=swap');body{
+=======
+body{
+>>>>>>> 5d943d581b2c8e4a40c8fd3b63e81888f69d5d5b
     background-color: #3D405B;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 nav{
+<<<<<<< HEAD
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -56,6 +61,32 @@ h2{
   padding-right: 1vh;
   padding-left: 1vh;
 
+=======
+    background: linear-gradient(45deg, #E07A5F, #7700ff);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    min-height: 8vh;
+    font-family: 'Share Tech Mono', monospace;
+}
+.logo{
+    margin: 2rem;
+}
+.logo img{
+    height: 8vh;
+}
+.main-nav{
+    display: flex;
+    justify-content:space-between;
+    width: 30%;
+}
+.main-nav a{
+    text-decoration: none;
+    font-size: 4vh;
+}
+.main-nav li{
+    list-style: none;
+>>>>>>> 5d943d581b2c8e4a40c8fd3b63e81888f69d5d5b
 }
 .header img{
     min-height: 75px;
@@ -63,9 +94,13 @@ h2{
     padding: 10px;
     
 }
+<<<<<<< HEAD
 .glitch{
   display: none;
 }
+=======
+
+>>>>>>> 5d943d581b2c8e4a40c8fd3b63e81888f69d5d5b
 
 
 
@@ -147,7 +182,11 @@ body {font-family: Verdana, sans-serif;}
         }
     
         
+<<<<<<< HEAD
     .activedot {
+=======
+    .active {
+>>>>>>> 5d943d581b2c8e4a40c8fd3b63e81888f69d5d5b
           background-color: #717171;
         }
         
@@ -172,6 +211,7 @@ body {font-family: Verdana, sans-serif;}
         /* On smaller screens, decrease text size */
         @media only screen and (max-width: 300px) {
           .text {font-size: 11px}
+<<<<<<< HEAD
         }
         footer{
           color: white;
@@ -204,4 +244,6 @@ body {font-family: Verdana, sans-serif;}
         address,footer p{
           font-family: 'Anonymous Pro', monospace;
           font-size: 20px;
+=======
+>>>>>>> 5d943d581b2c8e4a40c8fd3b63e81888f69d5d5b
         }

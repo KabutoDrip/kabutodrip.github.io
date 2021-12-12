@@ -1,63 +1,21 @@
-@import url('https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Anonymous+Pro&family=Share+Tech+Mono&display=swap');
 body{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    height: 100vh;
-    perspective: 1px;
-    transform-style: preserve-3d;
-    overflow-x: hidden;
-    overflow-y: auto;
-}
-nav{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    min-height: 8vh;
-    font-family: 'Share Tech Mono', monospace;
     background-color: white;
-    padding-right: 50px;
-    padding-left: 50px;
 }
-h1{
-    margin: 0;
-    font-family: 'Share Tech Mono', monospace;
-    color: white;
+header{
+    display:block;
+    float: left;
     text-align: center;
+    width:  10em;
+    height: 40em;
+    background-color: #49a7c1;
+    border-radius: 4px;
+    line-height: 6em;
+    position: fixed;
 }
-
-.logo img{
-    height: 8vh;
+header img{
+    padding-top: 10px;
+    max-width: 9em;
 }
-.main-nav{
-    margin: 0;
-    
-    display: flex;
-    justify-content:space-between;
-    width: 50%;
-    height: 100%;
-}
-.main-nav a{
-    text-decoration: none;
-    font-size: 4vh;
-    height: 100%;
-}
-.main-nav li{
-    list-style: none;
-    height: 100%;
-}
-.active{
-    background: linear-gradient(-15deg, #E07A5F, #6010ff);
-    height: 100%;
-    padding-top: 6vh;
-    padding-bottom: 2vh;
-    padding-right: 1vh;
-    padding-left: 1vh;
-
-}
-
-
 header a{
 margin: 20px;
 font-size: 3em;
@@ -65,118 +23,61 @@ text-decoration: none;
 color:#060958 ;
 }
 main{
-    background: rgb(224,122,95);
-    background: linear-gradient(15deg, rgba(224,122,95,1) 0%, rgba(96,16,255,1) 29%, rgba(0,0,0,1) 76%);
-    display: inline-block
+    padding-left: 10em;
 }
 .top-content{
-    
-    color: white;
-    font-family: 'Anonymous Pro', monospace;
-    font-weight: 500;
     display: inline-block;
-    width: 100vw;
-    height: 90vh;
-
-}
-.top-content h1{
-    padding-right: 50%;
-    padding-top: 10%;
-    font-size: 60px;
-}
-.top-content p{
-    padding-top: 2%;
-    font-size: 30px;
-    margin-left: 10%;
-    max-width: 30%;
+    text-align: center;
+    padding-left: 15%;
+    padding-right: 15%;
+    margin: auto;
+    width: 70%;
 }
 .top-content img{
-    max-height: 60%;
-    position: absolute;
-    padding-top: 5%;
-    right: -200px;
-    z-index: +2;
+    max-width: 60%;
     border-radius: 3px;
 }
-
-
-
-
-.bottom-content{
-    position: relative;
-    margin-left: 200px;
-    margin-right: 200px;
-    padding-bottom: 100px;
+.top-content p {
+    max-width: 50%;
+    margin: auto;
 }
+
+
+
+
 .play-content{
+    background-color: blanchedalmond;
     display: block;
     max-width: 50%;
     float: left;
+    padding-top: 5%;
 }
 .play-content img{
-    max-width: 100%;
-    width: fit-content;
-    height: 600px;}
+    max-width: 80%;
+}
 .play-content h1{
     text-align: center;
 }
 .play-content p{
-    color: white;
-    padding-left: 0%;
-    text-align: center;
-    font-family: 'Anonymous Pro', monospace;
-
+    padding-left: 10%;
 }
 
 
 
 .work-content{
+    background-color: blanchedalmond;
     display: block;
     max-width: 50%;
     float: right;
+    padding-top: 5%;
+    
 }
 .work-content img{
-    max-width: 100%;
-    width: fit-content;
-    height: 600px;
+    max-width: 80%;
 }
-.work-content p{
-    color: white;
+.work-content h1{
     text-align: center;
-    font-family: 'Anonymous Pro', monospace;
-
-
 }
-
-footer{
-    color: white;
-    padding: 25px 50px;
-    margin-top: 100px;
-    margin-bottom: 100px;
-    font-weight: 500;
-    font-size: 30px;
-    font-family: 'Share Tech Mono', monospace;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    text-align: center;
-  }
-  .social-images a img{
-    padding-top: 15px;
-    max-width: 150px;
-  }
-  h3{
-    text-align: center;
-  }
- 
-  .contact{
-    flex: .3;
-  }
-  .copyright{
-    order: 3;
-    flex: .3;
-  }
-  address,footer p{
-    font-family: 'Anonymous Pro', monospace;
-    font-size: 20px;
-  }
+.work-content p {
+    padding-left: 10%;
+}
