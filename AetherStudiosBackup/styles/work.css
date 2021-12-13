@@ -47,7 +47,7 @@ h1{
     height: 100%;
 }
 .active{
-    background: linear-gradient(-15deg, #E07A5F, #6010ff);
+    background: linear-gradient(-15deg, #e07a5f, #6010ff);
     height: 100%;
     padding-top: 6vh;
     padding-bottom: 2vh;
